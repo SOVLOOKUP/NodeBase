@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "pnpm run -C packages/ui build && pnpm run -C packages/server build"
+  }
+}

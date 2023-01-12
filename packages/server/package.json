@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "gf run ./main.go",
+    "build": "gf pack ../ui/dist packed/mod.go -n packed -y && gf build ./main.go"
+  }
+}
